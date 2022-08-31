@@ -1,0 +1,170 @@
+/* style de la feuille index.html */
+
+.center {
+    position:absolute; left:12%; top:12%;
+}
+.fade-in {
+animation: fadeIn ease 2.5s;
+-webkit-animation: fadeIn ease 2.5s;
+-moz-animation: fadeIn ease 2.5s;
+-o-animation: fadeIn ease 2.5s;
+-ms-animation: fadeIn ease 2.5s;
+}
+
+@keyframes fadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+.fade-in2 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    
+    @keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+
+/* j'ai rajouté un dixième de seconde pour tenter d'eviter
+'l'overlap' d'une frame qui apparait à la fin du fade-out */
+
+.fade-out {
+animation: fadeOut ease 3.1s;
+-webkit-animation: fadeOut ease 3.1s;
+-moz-animation: fadeOut ease 3.1s;
+-o-animation: fadeOut ease 3.1s;
+-ms-animation: fadeOut ease 3.1s;
+}
+
+@keyframes fadeOut {
+0% {
+opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-moz-keyframes fadeOut {
+0% {
+opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-webkit-keyframes fadeOut {
+0% {
+opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-o-keyframes fadeOut {
+0% {
+opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+@-ms-keyframes fadeOut {
+0% {
+opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+
+a {
+    outline: 0;
+ }
